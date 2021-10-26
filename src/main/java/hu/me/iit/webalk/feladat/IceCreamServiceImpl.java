@@ -2,6 +2,9 @@ package hu.me.iit.webalk.feladat;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class IceCreamServiceImpl implements IceCreamService {
 
 	private final int MAXIMUM_ICECREAM_COUNT = 20;
